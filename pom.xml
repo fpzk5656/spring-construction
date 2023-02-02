@@ -50,9 +50,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <compilerVersion>${java.version}</compilerVersion>
+                    <source>11</source>
+                    <target>11</target>
+                    <compilerVersion>11</compilerVersion>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -60,7 +60,7 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.4.9.v20180320</version>
+                <version>9.4.12.v20180830</version>
                 <configuration>
                     <httpConnector>
                         <port>9080</port>
